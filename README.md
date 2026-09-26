@@ -1,5 +1,7 @@
 # Hyperliquid 宣传片 · 程序化生成
 
+**中文** | [English](README.en.md)
+
 ![海报](renders/poster.jpg)
 
 64 秒 · 1920×1080 · 60 fps · 128 BPM。画面（WebGL + Canvas）和配乐（纯代码合成，无任何采样素材）都由代码生成，两者共用同一份节拍时间表，所有切镜、文字砸入和闪光都卡在鼓点上。
