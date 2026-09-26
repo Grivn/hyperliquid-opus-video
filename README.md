@@ -77,3 +77,13 @@ npm run build
 
 - Hyperliquid 的名称、标志和品牌视觉归 Hyperliquid 所有，本项目是非官方作品。
 - 行情与统计数据是 2026-09-26 的快照，仅作展示，不构成投资建议。
+
+## 许可证
+
+代码以 [MIT 许可证](LICENSE) 发布。第三方素材不在 MIT 授权范围内，遵循各自的许可：
+
+- Hyperliquid 的名称、标志和品牌视觉是 Hyperliquid 的商标。
+- 字体遵循 SIL Open Font License。
+- 地图数据为公有领域。
+
+逐项来源见 [assets/README.md](assets/README.md)。

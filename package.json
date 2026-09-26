@@ -2,6 +2,7 @@
   "name": "hyperliquid-opus-video",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "Procedural Hyperliquid promo video: WebGL + Canvas motion graphics and a synthesized soundtrack, rendered frame by frame in headless Chrome",
   "scripts": {
