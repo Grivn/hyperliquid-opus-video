@@ -1,0 +1,21 @@
+{
+  "name": "hyperliquid-opus-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Procedural Hyperliquid promo video: WebGL + Canvas motion graphics and a synthesized soundtrack, rendered frame by frame in headless Chrome",
+  "scripts": {
+    "fetch-data": "node scripts/fetch-data.mjs",
+    "prep": "node scripts/prep-logo.mjs && node scripts/prep-data.mjs",
+    "audio": "node src/audio/synth.mjs",
+    "render": "node scripts/render.mjs --from 0 --to 3840 --workers 3 --sub 4 --grain 0",
+    "encode": "bash scripts/encode.sh",
+    "build": "npm run prep && npm run audio && npm run render && npm run encode",
+    "preview": "npm run audio && node scripts/render.mjs --serve",
+    "check-gpu": "node scripts/check-gpu.mjs",
+    "lesson": "node lessons/sound-design/mini-synth.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

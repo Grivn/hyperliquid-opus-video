@@ -1,0 +1,6 @@
+# Generated modules and raw API snapshots: keep them out of GitHub language stats and diffs.
+src/generated/** linguist-generated=true
+assets/data/** linguist-generated=true -diff
+*.mp4 binary
+*.wav binary
+*.woff2 binary
